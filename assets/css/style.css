@@ -1,0 +1,60 @@
+body {
+    background-color: pink;
+}
+
+img {
+    width: 350px;
+}
+
+.div1 {
+    /*background-color: blue;*/
+}
+
+.div2 {
+    /*background-color: green;*/
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+}
+p {
+    /*background-color: red;*/
+    display: inline-block;
+}
+
+ul {
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+.johnny {
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.disque {
+    /*background-color: blue;*/
+    position: relative;
+    display: inline-block;
+    animation: turn 2s infinite linear;
+}
+
+@keyframes turn {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
